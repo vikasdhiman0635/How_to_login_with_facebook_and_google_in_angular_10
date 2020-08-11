@@ -36,12 +36,12 @@ import { NevbarComponent } from './nevbar/nevbar.component';
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              '976573038155-8fmjdaidg3gf7pb4vg3u2n3f8tbofv4e.apps.googleusercontent.com'
+              'Client Id'
             ),
           },
           {
             id: FacebookLoginProvider.PROVIDER_ID,
-            provider: new FacebookLoginProvider('299821457997851'),
+            provider: new FacebookLoginProvider('APP ID'),
           },
         ],
       } as SocialAuthServiceConfig,
