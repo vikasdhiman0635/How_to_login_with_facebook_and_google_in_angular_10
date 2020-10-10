@@ -27,26 +27,7 @@ import { NevbarComponent } from './nevbar/nevbar.component';
     SocialLoginModule,
     AppRoutingModule
   ],
-  providers: [
-    {
-      provide: 'SocialAuthServiceConfig',
-      useValue: {
-        autoLogin: true,
-        providers: [
-          {
-            id: GoogleLoginProvider.PROVIDER_ID,
-            provider: new GoogleLoginProvider(
-              'XXXXXXXXXXXXX'
-            ),
-          },
-          {
-            id: FacebookLoginProvider.PROVIDER_ID,
-            provider: new FacebookLoginProvider('XXXXXXXXXXXXXXXXXXXXXXXXX'),
-          },
-        ],
-      } as SocialAuthServiceConfig,
-    }
-  ],
+  providers: [ ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
